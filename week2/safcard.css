@@ -1,0 +1,116 @@
+body{
+    margin: 60px;
+    background-color: #d4c6c6;
+    
+}
+.container{
+    display: flex;
+    flex-direction: raw;
+    width: 100%;
+    gap: 20px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    border-radius: 10px;
+    align-items: center;
+    width: 50%;
+}
+.card1 .image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card1 .content h1{
+    color: #ffffff;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+}
+.card1 .content p{
+    color: white;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card1 .content button{
+    background-color: white;
+    color: #36ba36;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border: none;
+    margin: 20px;
+}
+.card2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-radius: 10px;
+    align-items: center;
+}
+.card2 .image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card2 .content h1{
+    color: green;
+}
+.card2 .content p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#line1{
+    font-weight: bold;
+}
+.card2 .content button{
+    background-color: green;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border: none;
+}
+.card3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-radius: 10px;
+    align-items: center;
+}
+.card3 .content h1{
+    color: green;
+}
+.card3 .content input{
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid grey;
+
+    hr {
+
+  border: none;               
+
+  border-top: 2px solid #555; 
+
+  width: 80%;                
+
+  margin: 20px auto;         
+
+}
+}
+.card3 .content button{
+    color: grey;
+    background-color: #52a352;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+}
